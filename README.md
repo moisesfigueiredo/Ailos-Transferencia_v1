@@ -1,5 +1,3 @@
-<img width="1339" height="226" alt="image" src="https://github.com/user-attachments/assets/b5346266-8e2c-4286-94ed-b90f9b475c94" /># Ailos - Transferência
-
 Teste Prático
 
 <br />
