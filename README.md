@@ -37,7 +37,6 @@ Passo a passo - Execução:
 * Baixe o projeto para seu computador
 * Para fins de praticidade, recomendo utilizar o Visual Studio para a execução
 * Efetue Clean e em seguida rebuild do Projeto, antes de executar:
-  
   <img width="320" height="337" alt="image" src="https://github.com/user-attachments/assets/3c045157-efd6-44f3-9d19-ced80cc816f1" />
 
 
@@ -65,7 +64,12 @@ No banco de dados:
 <img width="1339" height="226" alt="image" src="https://github.com/user-attachments/assets/aaada3e9-d217-43ab-bb35-b6ebf19b1a92" />
 
 Na API
-<img width="1460" height="1065" alt="image" src="https://github.com/user-attachments/assets/92c2d924-b9a4-4e28-8908-b96e043f11bf" />
+<img width="1465" height="936" alt="image" src="https://github.com/user-attachments/assets/2ffaaa25-8a61-4eb0-9622-e97f3bf03562" />
 
 No banco de dados:
-<img width="1197" height="152" alt="image" src="https://github.com/user-attachments/assets/31616591-9bc1-4aae-80b8-36f6a08bf498" />
+<img width="1226" height="152" alt="image" src="https://github.com/user-attachments/assets/b56c85b6-3486-42cc-b764-560ef6cffd8d" />
+
+
+
+
+
