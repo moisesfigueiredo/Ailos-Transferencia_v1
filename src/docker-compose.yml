@@ -3,7 +3,7 @@ version: '3.4'
 services:
   postgres:
     ports:
-      - '5433:5433'
+      - '5433:5432'
     restart: always
     container_name: ailo-transferencia-db-postgresql
     environment:
