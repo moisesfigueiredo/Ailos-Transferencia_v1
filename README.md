@@ -64,36 +64,11 @@ No banco de dados:
 <img width="1339" height="226" alt="image" src="https://github.com/user-attachments/assets/aaada3e9-d217-43ab-bb35-b6ebf19b1a92" />
 
 Na API
-<img width="1460" height="1065" alt="image" src="https://github.com/user-attachments/assets/92c2d924-b9a4-4e28-8908-b96e043f11bf" />
+<img width="1467" height="928" alt="image" src="https://github.com/user-attachments/assets/c63b2639-625e-4f03-99e9-3f382a2d4e86" />
+
 
 No banco de dados:
-<img width="1272" height="234" alt="image" src="https://github.com/user-attachments/assets/ffb362ee-85a8-43cf-a32e-a76f7096f8ef" />
-
-
-3 - Vá até o endpoint "/ContaCorrente/Logar" e informe os dados de acesso, conforme cadastrados no passo anterior. Você deverá receber o token JWT:
-<img width="1590" height="923" alt="image" src="https://github.com/user-attachments/assets/4c4bc847-ef46-410a-a6f9-71bef0109fd8" />
-
-4 - Vá até "Authorize" e se autentique na API, informando o token recebido no passo anterior:
-<img width="1469" height="340" alt="image" src="https://github.com/user-attachments/assets/b0a5f415-e4a3-4b3e-a037-c0f68ae71037" />
-
-5 - Guarde o token em algum editor de textos, pois ele será usado para se autenticar também na outra API (Transferência)
-
-6 - Vá até o endpoint "/ContaCorrente/MovimentacaoContaCorrente" e crie um movimento, semelhante ao descrito:
-<img width="1450" height="943" alt="image" src="https://github.com/user-attachments/assets/524260ae-222f-4b49-8c07-76167b3b699e" />
-
-No banco de dados:
-<img width="1198" height="213" alt="image" src="https://github.com/user-attachments/assets/b6b50c3b-a5f2-4f96-be37-08b863ed4bee" />
-
-7 - Vá até o endpoint "/ContaCorrente/SaldoContaCorrente" e crie um consulte o saldo. O resultado será algo conforme abaixo:
-<img width="1438" height="888" alt="image" src="https://github.com/user-attachments/assets/249ec2d7-15f4-4cd5-b41f-282ad6515a9b" />
-
-8 - Vá até o endpoint "/ContaCorrente/CadastrarConta" e entre com os dados. Esta Conta Corrente será usada para receber transferências a partir da API de Transferência:
-<img width="1455" height="1066" alt="image" src="https://github.com/user-attachments/assets/725f0953-5038-4745-b037-b9893475b71e" />
-
-No banco de dados:
-<img width="1354" height="210" alt="image" src="https://github.com/user-attachments/assets/b88b9228-fd77-427a-8a07-436aefe3649f" />
-
-9 - Deste ponto em diante, você pode seguir para o repositório (https://github.com/moisesfigueiredo/Ailos-Transferencia_v1) e seguir as instruções para levantar a API de Transferência, que se comunica com esta API (Conta Corrente)
+<img width="1226" height="152" alt="image" src="https://github.com/user-attachments/assets/b56c85b6-3486-42cc-b764-560ef6cffd8d" />
 
 
 
