@@ -1,0 +1,40 @@
+version: '3.4'
+
+services:
+  postgres:
+    ports:
+      - '5433:5433'
+    restart: always
+    container_name: ailo-transferencia-db-postgresql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ailo-transferencia-db
+    volumes:
+      - 'ailo-transferencia-db-postgresql-volume:/var/lib/postgresql/data'
+    image: 'postgres:latest'
+    networks:
+      - ailos-shared-network
+  ailostransferencia.api:
+    container_name: ailos-transferencia-api
+    image: ${DOCKER_REGISTRY-}ailostransferenciaapi
+    volumes:
+      - 'api-volume:/var/www/html'
+    build:
+      context: .
+      dockerfile: AilosTransferencia.Api/Dockerfile
+    ports:
+      - '8091:80'
+      - '5047:443'
+    restart: always 
+    depends_on:
+      - 'postgres'
+    networks:
+      - ailos-shared-network
+volumes:
+  ailo-transferencia-db-postgresql-volume:
+  api-volume:
+
+networks:
+  ailos-shared-network:
+    external: true
