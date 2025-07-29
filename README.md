@@ -69,6 +69,9 @@ Na API
 No banco de dados:
 <img width="1226" height="152" alt="image" src="https://github.com/user-attachments/assets/b56c85b6-3486-42cc-b764-560ef6cffd8d" />
 
+<img width="1041" height="226" alt="image" src="https://github.com/user-attachments/assets/a529ea74-a8e9-46f3-81ec-d968cb2e01e9" />
+
+
 
 
 
